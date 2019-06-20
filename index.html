@@ -1,1 +1,236 @@
-<h1>tsfsufs</h1>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>O que é E-Commerce? - MATHEUS GUEDES</title>
+	<link rel="stylesheet" type="text/css" href="ecommercenews.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script type="text/javascript">
+		function drop() {
+			var div1 = document.getElementById('dropbox');
+			var div2 = document.getElementById('dropbar');
+
+			if (div1.style.display == 'block'){
+				div1.style.display = 'none';
+			}
+			else if ((div1.style.display == 'none') && (div2.style.display == 'block')){
+				div1.style.display = 'block';
+				div2. style.display = 'none';
+			}
+			else {
+				div1.style.display = 'block';
+			}
+		}
+		function dropbar() {
+			var div2 = document.getElementById('dropbar');
+			var div1 = document.getElementById('dropbox');
+
+			if (div2.style.display == 'block'){
+				div2.style.display = 'none';
+			}
+			else if ((div2.style.display == 'none') && (div1.style.display == 'block')){
+				div2.style.display = 'block';
+				div1. style.display = 'none';
+			}
+			else {
+				div2.style.display = 'block';
+			}
+		}
+	</script>
+
+</head>
+<body>
+
+	<div class="navegationDesktop">
+		
+		<div class="menu-icon">
+			<input type="checkbox" id="check">
+			<label for="check" onclick="dropbar()"></label>
+			<span></span>
+		</div>
+
+		<nav>
+			<ul>
+				<li><a href="#">HOME</a>
+				</li>
+				<li><a href="#">ARTIGOS</a>
+				</li>
+				<li><a href="#">NOTÍCIAS</a>
+				</li>
+				<li><a href="#">VÍDEOS</a></li>
+				<li><a href="#">CATÁLOGOS</a>
+					<ul>
+						<li><a href="#">Plataformas</a>
+							<ul>
+								<li><a href="#">Atendimento ao Cliente</a></li>
+								<li><a href="#">E-Mail Marketing</a></li>
+								<li><a href="#">Pagamento Online</a></li>
+								<li><a href="#">Plataforma de E-Commerce</a></li>
+								<li><a href="#">Sistema de ERP</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Serviços</a>
+							<ul>
+								<li><a href="#">Agência Especializada</a></li>
+								<li><a href="#">Escola Especializada</a></li>
+								<li><a href="#">Logística</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href="#">EVENTOS E CURSOS</a></li>
+				<li><a href="#">SOBRE</a></li>
+				<li><a href="#">CONTATO</a>
+				</li>
+			</ul>
+
+			<button class="fa-search-btn" onclick="drop()">
+				<i class="fas fa-search"></i>
+			</button>
+
+			<!-- After make the section, create a input box of text 
+				
+				http://jsfiddle.net/vDw7s/15/
+				
+				Project to improve the js
+			-->	
+
+		</nav>
+	</div>
+
+	<header class="main-header">
+		
+		<div class="header">
+			<a href="#"><img class="logo" src="img/outrologo.png"></a>
+		</div>
+
+	</header>
+
+	<!-- CRIATE A SIDE BAR FOR MOBILE -->
+	<div id="dropbar">
+		<ul>
+			<a href="#"><li>HOME</li></a>
+			<a href="#"><li>ARTIGO</li></a>
+			<a href="#"><li>NOTÍCIAS</li></a>
+			<a href="#"><li>VÍDEOS</li></a>
+			<a href="#"><li>CATÁLOGOS</li></a>
+			<a href="#"><li>EVENTOS E CURSOS</li></a>
+			<a href="#"><li>SOBRE</li></a>
+			<a href="#"><li>CONTATO</li></a>
+		</ul>
+	</div>
+
+	<!-- DROP BOX IS HERE  -->
+
+	<div id="dropbox">
+		<form action="" method="post" name="formbox">
+			<input type="text" name="txtnome" placeholder="Pesquise aqui" id="dropsearch" autofocus="true">
+			<input type="submit" value="Buscar" id="dropsubmit">
+		</form>
+	</div>
+
+	<div class="contentDesktop">
+
+		<section>
+			<div class="smallTitle"><a href="#">INICIO</a>    &nbsp;&gt;    <span>Oque é E-Commerce?</span></div>
+		
+			<h1>O que é E-Commerce?</h1>
+
+			<div class="socialMedias">
+				<div><p><a class="
+					face-box" href="#"><i class="fab fa-facebook-f"></i>Compartilhar</a></p></div>
+
+				<div><p><a class="
+					twi-box" href="#"><i class="fab fa-twitter"></i>Compartilhar</a></p></div>
+
+				<div><p><a class="
+					linke-box" href="#"><i class="fab fa-linkedin-in"></i>Compartilhar</a></p></div>
+
+				<div><p><a class="
+					mail-box" href="#"><i class="fas fa-envelope"></i>Compartilhar</a></p></div>
+
+				<div><p><a class="
+					print-box" href="#"><i class="fas fa-print"></i>Compartilhar</a></p></div>
+			</div>
+
+		<a href="#"><img src="img/ecommercematheusguedes.jpeg" width="100%"></a>
+
+		<p class="paragrath">O e-commerce, que em português significa comércio eletrônico, é uma modalidade de comércio que realiza suas transações financeiras por meio de dispositivos e plataformas eletrônicas, como computadores e celulares. Um exemplo deste tipo de comércio é comprar ou vender produtos em lojas virtuais.</p>
+		<p class="paragrath">No início, o e-commerce era utilizado basicamente para vender bens tangíveis com valores modestos, como: livros e CDs. Hoje, ele é utilizado para comercializar desde produtos que custam milhões, como: iates, carros de luxo e mansões, até produtos que há pouco tempo eram inimagináveis pela sua incompatibilidade com este tipo de comércio, como roupas, perfumes e alimentos.</p>
+		</section>
+
+		<div class="asideConteiner">
+			<aside>
+				<span>
+					<p>Newsletter</p>
+				</span>
+				<p class="asideParagrath">Receba diariamente novidades do E-Commerce News em seu e-mail.</p>
+				<form>
+					<input type="email" name="email" class="textBox" placeholder="Digite seu e-mail">
+					<input type="submit" name="enviar" class="asideButtom">
+				</form>
+				<span>
+					<p>Siga-nos</p>
+				</span>
+				<div>
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-linkedin"></i></a>
+					<a href="#"><i class="fab fa-twitter-square"></i></a>
+					<a href="#"><i class="fab fa-youtube-square"></i></a>
+				</div>
+			</aside>
+		</div>
+	</div>
+
+	<footer>
+		<div>
+			<div>
+				<a href="#"><img src="img/outrologo.png" width="200px" height="70px"></a>
+			</div>
+
+			<div class="sectionFooter middle">
+				<h3>SOBRE MIM</h3>
+				<p>Minha missão é produzir conteúdos e agregar-los ao meu futuro portifólio, com o intuito de demostrar minhas habilidades, à incentivar novos desenvolvedores e até mesmo usar como uma referência de um determinado projeto.</p>
+			</div>
+
+			<div class="sectionFooter right">
+				<h3>SIGA-ME</h3>
+
+				<div> <!-- colocado em direção coluna para q os itens dentro dele cairem -->
+					<a href="#"><span><i class="fab fa-facebook-f faceBottom"></i></span></a>
+
+					<a href="#"><span><i class="fab fa-google-plus-g"></i></span></a>
+
+					<a href="#"><span><i class="fab fa-linkedin-in linkeBottom"></i></span></a>
+
+					<a href="#"><span><i class="fab fa-twitter twiBottom"></i></span></a>
+
+					<a href="#"><span><i class="fab fa-youtube youBottom"></i></span></a>
+
+					<a href="#"><span><i class="fab fa-instagram"></i></span></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<footer class="footerDois">
+		<div>
+			
+			<p>&copy; Copyright Matheus Guedes. Nenhum direito reservado.</p>
+
+			<ul>
+				<a href="#"><li>Home</li></a>
+				<a href="#"><li>Artigos</li></a>
+				<a href="#"><li>Notícias</li></a>
+				<a href="#"><li>Vídeos</li></a>
+				<a href="#"><li>Catálogos</li></a>
+				<a href="#"><li>Eventos e Cursos</li></a>
+				<a href="#"><li>Sobre</li></a>
+				<a href="#"><li>Contato</li></a>
+			</ul>
+
+		</div>
+	</footer>
+</body>
+</html>
