@@ -666,6 +666,11 @@ footer div div div span:hover .fa-instagram {
 	section {
 		margin-top: 0px;
 	}
+	.socialMedias p {
+		width: 110px;
+		display: flex;
+		font-size: 14px;
+	}
 	footer div {
 		flex-direction: column;
 		text-align: center;
